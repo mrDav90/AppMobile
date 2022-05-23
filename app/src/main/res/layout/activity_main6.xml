@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="QUIZ UP 👌✨"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:id="@+id/score24"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4- L'Afrique de l'ouest .... "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" regroupe 17 pays"
+        android:checked="false"
+        android:id="@+id/bb10"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="a une superficie de 6140 000 km²"
+        android:checked="false"
+        android:id="@+id/bb11"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" renferme le libéria"
+        android:checked="false"
+        android:id="@+id/bb12"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="prev"
+        android:id="@+id/arriere2"
+        />
+    <Button
+        android:layout_marginTop="-47dp"
+        android:layout_marginLeft="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next"
+        android:id="@+id/continuer4"
+        />
+
+
+</LinearLayout>

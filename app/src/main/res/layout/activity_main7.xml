@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="QUIZ UP 👌✨"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:id="@+id/score25"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5- Le Togo compte ..... "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" plus de 5 régions"
+        android:checked="false"
+        android:id="@+id/bb13"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 régions"
+        android:checked="false"
+        android:id="@+id/bb14"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" moins de 5 régions"
+        android:checked="false"
+        android:id="@+id/bb15"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="prev"
+        android:id="@+id/arriere3"
+        />
+    <Button
+        android:layout_marginTop="-47dp"
+        android:layout_marginLeft="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next"
+        android:id="@+id/continuer5"
+        />
+
+
+</LinearLayout>

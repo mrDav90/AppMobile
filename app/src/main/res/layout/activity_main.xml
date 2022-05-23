@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PAGE_DE_CONNEXION"/>
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:gravity="center"
+        android:layout_height="40dp"
+        android:hint="login"
+        android:id="@+id/login"
+        android:background="@color/purple_200"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:hint="password"
+        android:id="@+id/password"
+        android:background="@color/purple_200"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="connexion"
+        android:layout_marginTop="40dp"
+        android:id="@+id/connexion"/>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/message"/>
+
+    <Button
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="s'inscrire"
+        android:id="@+id/inscription"/>
+
+</LinearLayout>
